@@ -1,0 +1,57 @@
+.cabecalho {
+  margin: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95vw;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+
+ & a { 
+  color: var(--cor3-cinza);
+  padding: 1.5em;
+  font-weight: 500;
+ }
+}
+
+.navbar > a:hover {
+  color: var(--cor2-vinho);
+}
+
+.logo-tech {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  & a {
+    color: var(--cor3-cinza-escuro);
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.btn-botoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-login {
+  color: var(--cor3-cinza);
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em;
+}
+
+.cadastro {
+  color: var(--cor1-branco);
+  background: var(--cor2-vinho);
+  border: 1px solid var(--cor2-vinho);
+  border-radius: 8px;
+  padding: 0.6em 1.3em;
+}

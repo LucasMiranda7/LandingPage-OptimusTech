@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url(Styles/cabecalho.css);
+@import url(Styles/sobre-nos.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root {
+  /* Cores */
+  --cor1-branco: #FFFFFF;
+  --cor2-vinho: #8E2424;
+  --cor3-cinza: #667085;
+  --cor3-cinza-escuro: #3A404E;
+
+  /* Fontes */
+  --fonte1:  "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: var(--cor1-branco);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--fonte1);
+  /* overflow: hidden; */
+}
+
+
+
