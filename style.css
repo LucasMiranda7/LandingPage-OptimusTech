@@ -2,6 +2,7 @@
 
 @import url(Styles/cabecalho.css);
 @import url(Styles/sobre-nos.css);
+@import url(Styles/metricas.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -12,6 +13,7 @@
   --cor2-vinho: #8E2424;
   --cor3-cinza: #667085;
   --cor3-cinza-escuro: #3A404E;
+  --cor4-azul: #101828;
 
   /* Fontes */
   --fonte1:  "Inter", sans-serif;

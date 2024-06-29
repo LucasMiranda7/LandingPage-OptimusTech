@@ -1,0 +1,40 @@
+.main {
+  width: 100%;
+}
+
+
+.container_sobrenos {
+  margin: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+  & .destaque_text {
+    color: var(--cor2-vinho);
+    font-weight: 600;
+  }
+  
+  & h1 {
+    padding: 1em;
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  & p {
+    color: var(--cor3-cinza);
+    font-size: 20px;
+    width: 52%;
+  }
+}
+
+
+
+
+
+
+
+
