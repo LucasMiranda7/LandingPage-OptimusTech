@@ -28,7 +28,6 @@
     color: var(--cor3-cinza);
     font-size: 20px;
     
-    
   }
 
  & .imagem_equipe {
@@ -36,4 +35,48 @@
    width: 80vw;
  }
 
+}
+
+
+.tipos_vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 25%;
+  gap: 24px;
+  
+  
+  & .info_text {
+    width: 768px;
+    
+   
+    color: var(--cor4-azul);
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.info_Vaga {
+  border: 1px solid #8e24240f;
+  border-radius: 16px;
+
+  padding: 1.5rem 1.8rem;
+  width: 768px;
+  
+  
+  
+  & h3 {
+    padding-bottom: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  & span {
+    padding-right: 1.5rem;
+    color: var(--cor3-cinza);
+    font-weight: 500;
+  }
 }
