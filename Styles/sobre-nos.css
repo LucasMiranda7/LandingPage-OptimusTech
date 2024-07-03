@@ -1,13 +1,11 @@
 
 .container_sobrenos {
   margin: 10%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
 
   & .destaque_text {
     color: var(--cor2-vinho);
