@@ -1,0 +1,58 @@
+.rodape {
+  background-color: var(--cor5-rodape);
+  margin: 0 auto;
+  padding: 5em;
+  width: 100%;
+}
+
+.conteudo_rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  & h3 {
+  font-size: 36px;
+  font-weight: 700;
+  }
+
+  & .alert_vagas {
+    color: var(--cor3-cinza);
+    font-size: 20px;
+  }
+}
+
+.textfield {
+  display: flex;
+ justify-content: center;
+
+  & input {
+    padding: 0.9rem 1rem 0.8rem 0.9rem;
+    background-color: white;
+    border: 1px solid #d0d5dd8a;
+    border-radius: 8px;
+
+    width: 360px;
+  }
+
+  & input::placeholder {
+    
+    font-size: 16px;
+    color: var(--cor3-cinza);
+    text-align: left;
+  }
+
+  & .btn-cadastro {
+    color: var(--cor1-branco);
+    background-color: var(--cor2-vinho);
+    border-radius: 8px;
+    border: 1px solid var(--cor2-vinho);
+    margin-left: 1rem;
+    padding: 0.8rem 1.25rem;
+    font-size: 16px;
+  }
+}
+
+& .copryright {
+    color: var(--cor6-copryright);
+  }
