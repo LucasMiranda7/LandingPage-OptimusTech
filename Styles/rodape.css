@@ -36,7 +36,6 @@
   }
 
   & input::placeholder {
-    
     font-size: 16px;
     color: var(--cor3-cinza);
     text-align: left;
