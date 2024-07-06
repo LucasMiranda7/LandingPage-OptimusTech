@@ -52,6 +52,7 @@
 
 @media screen and (max-width: 767px) {
   .lista-contribuicoes {
+    flex-wrap: wrap;
     align-items: center;
     columns: 1;
     

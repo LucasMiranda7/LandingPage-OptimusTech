@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-around;
   width: 95vw;
+  
 }
 
 .navbar {
@@ -53,7 +54,7 @@
   background: var(--cor2-vinho);
   border: 1px solid var(--cor2-vinho);
   border-radius: 8px;
-  padding: 0.6em 1.3em;
+  padding: 0.6em 2em;
 }
 
 .menu_mobile,.lista-menu {
