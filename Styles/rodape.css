@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 5em;
   width: 100%;
+  max-width: 100%;
 }
 
 .conteudo_rodape {
