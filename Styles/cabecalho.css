@@ -41,6 +41,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 20px;
 }
 
 .btn-login {
@@ -48,6 +49,14 @@
   display: flex;
   flex-direction: row;
   padding: 1.5em;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  border: 1px solid #8e24240f;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  
 }
 
 .btn-cadastro {
@@ -56,7 +65,13 @@
   border: 1px solid var(--cor2-vinho);
   border-radius: 8px;
   padding: 0.6em 2em;
+  transition: 0.3s;
 }
+
+.btn-cadastro:hover {
+  background-color: #8e2424cc;
+}
+
 
 .menu_mobile,.lista-menu {
   display: none;
@@ -114,6 +129,7 @@
   padding: 3em 0 1em 0;
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
 .lista-menu {
@@ -149,6 +165,11 @@
 
 .lista-menu-link {
   z-index: 2;
+  transition: 0.3s;
+}
+
+.lista-menu-link:hover {
+  color: var(--cor2-vinho);
 }
 
 #menu {
@@ -156,6 +177,7 @@
  top: 40%;
  left: 30%;
  opacity: 0;
+ cursor: pointer;
 }
 
   .navbar {
