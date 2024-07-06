@@ -48,11 +48,12 @@
   }
   
   .lista-contribuicoes {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 5%; 
-    columns: 2;
+    width: 100%;
     
     & .item_numeros {
       font-size: 50px;
