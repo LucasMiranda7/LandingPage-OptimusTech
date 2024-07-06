@@ -58,7 +58,7 @@
       /* Celulares */
 @media screen and (max-width: 767px) {
   .container_opnioes {
-    width: 95%;
+    width: 85%;
 
     & h2 {
       font-size: 16px;
