@@ -49,3 +49,14 @@
     }
 } 
 }
+
+@media screen and (max-width: 767px) {
+  .lista-contribuicoes {
+    align-items: center;
+    columns: 1;
+    
+    & .item_numeros {
+      font-size: 35px;
+    }
+} 
+}

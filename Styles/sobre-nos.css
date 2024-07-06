@@ -25,7 +25,8 @@
   }
 }
 
-/* Tablets */
+
+        /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .container_sobrenos {
     margin: 5%; 
@@ -36,14 +37,28 @@
     }
   
     & p {
-      color: var(--cor3-cinza);
       font-size: 18px;
       width: 75%;
     }
   }
 }
 
+        /* Celulares */
 
+@media screen and (max-width: 767px) {
+  .container_sobrenos {
+    margin: 5%; 
+
+    & h1 {
+      font-size: 32px;
+    }
+  
+    & p {
+      font-size: 16px;
+      width: 95vw;
+    }
+  }
+}
 
 
 

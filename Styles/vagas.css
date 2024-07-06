@@ -58,7 +58,7 @@
   border: 1px solid #8e24240f;
   border-radius: 16px;
   padding: 1.5rem 1.8rem;
-  width: 768px;
+  width: 40vw;
   
   & h3 {
     padding-bottom: 2rem;
@@ -72,3 +72,73 @@
     font-weight: 500;
   }
 }
+
+
+        /* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+
+  .container_vagas {
+  & h2 {
+    font-size: 30px;
+  }
+
+  & p {
+    font-size: 18px;
+  }
+
+ & .imagem_equipe {
+   padding: 2rem 1.5rem 3.5rem 1.5rem;
+   width: 90vw;
+ }
+}
+
+.tipos_vagas {
+  width: 110%;
+}
+
+.info_Vaga {
+  margin-right: 2em;
+  width: 90vw;
+  
+}
+}
+
+
+    /* Celulares */
+
+@media screen and (max-width: 767px) {
+  .container_vagas {
+    text-align: center;
+
+    & h2 {
+      font-size: 22px;
+    }
+  
+    & p {
+      font-size: 16px;
+    }
+  
+   & .imagem_equipe {
+    padding: 2rem 1.5rem 3.5rem 1.5rem;
+     width: 95vw;
+   }
+  }
+
+  .tipos_vagas {
+    margin: 0 auto;
+    padding-top: 5rem;
+    text-align: center;
+
+    &  span {
+      font-size: 14px;
+    }
+  }
+  
+  .info_Vaga {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+  }
+
+

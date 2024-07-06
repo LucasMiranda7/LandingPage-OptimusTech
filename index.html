@@ -11,19 +11,43 @@
 
         <!-- Cabeçalho -->
   <header class="cabecalho" id="home">
+
+      <!-- Menu Mobile -->
+    <div class="menu_mobile">
+
+      <input type="checkbox" id="menu" class="conteiner_botao">
+      <label for="menu" class="container_rotulo">
+        <span class="cabecalho_menu container_imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu-titulo">OptimusTech</li>
+  
+        <li class="lista-menu-item"><a href="#home" class="lista-menu-link">Home</a></li>
+  
+        <li class="lista-menu-item"><a href="#produtos" class="lista-menu-link">Produtos</a></li>
+  
+        <li class="lista-menu-item"><a href="#recursos" class="lista-menu-link">Recursos</a></li>
+  
+        <li class="lista-menu-item"><a href="#sobrenos" class="lista-menu-link">Sobre Nós</a></li>
+      </ul>
+  </div>
+  </div>
+  
       <!-- Logo da Empresa -->
     <div class="logo-tech">
       <img src="Imgs/worldwide 1 (Traced).svg" alt="Logo da OptimusTech">
       <a href="#">OptimusTech</a>
     </div>
 
+
           <!-- MENU -->
     <nav class="navbar">
       <a href="#home">Home</a>
-      <a href="#">Produtos</a>
-      <a href="#">Recursos</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#recursos">Recursos</a>
       <a href="#sobrenos">Sobre nós</a>
     </nav>
+    
       <!-- BTN-BOTÕES -->
     <div class="btn-botoes">
       <a class="btn-login" href="#">Entrar</a>
@@ -42,7 +66,7 @@
     </section>
 
     <!-- Section 'Métricas e resultados -->
-    <section class="contribuicoes">
+    <section class="contribuicoes" id="produtos">
       <ul class="lista-contribuicoes">
         <li class="item_numeros">400+</li>
         <li class="item_tipos">Projetos concluídos</li>
@@ -69,7 +93,7 @@
     </section>
 
     <!-- SECTION VAGAS -->
-    <section class="container_vagas">
+    <section class="container_vagas" id="recursos">
       <span class="destaque_text">Vagas abertas!</span>
       <h2>Estamos procurando por talentos</h2>
       <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
