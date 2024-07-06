@@ -5,11 +5,13 @@
   justify-content: center;
   align-items: center;
   gap: 32px;
+  max-width: 100%;
 }
 
 .lista-contribuicoes {
   padding-right: 3%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -40,8 +42,16 @@
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1280px) {
+  .contribuicoes {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
   .lista-contribuicoes {
-    padding-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%; 
     columns: 2;
     
     & .item_numeros {
@@ -51,10 +61,14 @@
 }
 
 @media screen and (max-width: 767px) {
+  .contribuicoes {
+    overflow-x: hidden;
+  }
+
   .lista-contribuicoes {
-    flex-wrap: wrap;
     align-items: center;
     columns: 1;
+    width: 100%;
     
     & .item_numeros {
       font-size: 35px;
